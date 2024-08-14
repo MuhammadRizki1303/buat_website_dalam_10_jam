@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bantuan - Diskominfotiksan</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="../assets/logo-diskominfo.png" alt="Logo" />
+          <div class="logo-text">
+            <h2>Diskominfotiksan</h2>
+            <p>Kabupaten Pesawaran</p>
+          </div>
+        </div>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="nav-search-container">
+          <nav class="nav">
+            <ul class="nav-menu">
+              <li><a href="../index.html" class="nav-link">Beranda</a></li>
+              <li><a href="berita.html" class="nav-link">Berita</a></li>
+              <li><a href="galeri.html" class="nav-link">Galeri</a></li>
+              <li><a href="profil.html" class="nav-link">Profil</a></li>
+              <li><a href="layanan.html" class="nav-link">Layanan</a></li>
+              <li><a href="bantuan.html" class="nav-link">Bantuan</a></li>
+            </ul>
+          </nav>
+          <div class="search">
+            <input type="text" placeholder="Cari..." class="search-input" />
+            <button type="submit" class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="faq-container">
+        <h2>Butuh Bantuan?</h2>
+        <p class="intro-text">
+          Temukan jawaban atas pertanyaan umum atau kirim pertanyaan dan saran
+          Anda kepada kami.
+        </p>
+
+        <!-- Formulir Pengiriman Pertanyaan -->
+        <div class="contact-form">
+          <h3>Kirim Pertanyaan atau Saran</h3>
+          <form
+            id="contact-form"
+            action="mailto:email@diskominfotiksan.com"
+            method="POST"
+            enctype="text/plain"
+          >
+            <label for="name">Nama Lengkap:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Alamat Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Pertanyaan atau Saran:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="submit-btn">Kirim</button>
+          </form>
+        </div>
+
+        <div class="faq-grid">
+          <!-- Pertanyaan 1 -->
+          <div class="faq-item">
+            <h3 class="faq-question">Bagaimana cara mengakses layanan?</h3>
+            <div class="faq-answer">
+              <p>
+                Anda dapat mengakses layanan melalui menu "Layanan" di situs web
+                kami atau langsung mengunjungi halaman layanan yang tersedia.
+              </p>
+            </div>
+          </div>
+          <!-- Pertanyaan 2 -->
+          <div class="faq-item">
+            <h3 class="faq-question">
+              Apa yang harus dilakukan jika lupa password?
+            </h3>
+            <div class="faq-answer">
+              <p>
+                Jika Anda lupa password, Anda dapat menggunakan fitur "Lupa
+                Password" pada halaman login untuk mereset password Anda.
+              </p>
+            </div>
+          </div>
+          <!-- Pertanyaan 3 -->
+          <div class="faq-item">
+            <h3 class="faq-question">
+              Bagaimana cara menghubungi layanan pelanggan?
+            </h3>
+            <div class="faq-answer">
+              <p>
+                Anda dapat menghubungi layanan pelanggan kami melalui email,
+                telepon, atau media sosial resmi yang tertera di halaman kontak
+                kami.
+              </p>
+            </div>
+          </div>
+          <!-- Pertanyaan 4 -->
+          <div class="faq-item">
+            <h3 class="faq-question">
+              Di mana saya bisa menemukan informasi terbaru?
+            </h3>
+            <div class="faq-answer">
+              <p>
+                Informasi terbaru dapat ditemukan di halaman berita kami, atau
+                Anda dapat mengikuti media sosial kami untuk pembaruan langsung.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-header">
+        <img
+          src="../assets/logo-diskominfo.png"
+          alt="Logo"
+          class="footer-logo"
+        />
+        <div class="footer-logo-text">
+          <h2>Diskominfotiksan</h2>
+          <h3>Kabupaten Pesawaran</h3>
+        </div>
+      </div>
+
+      <div class="footer-content">
+        <div class="footer-left">
+          <h4>ALAMAT</h4>
+          <p>
+            Komplek Perkantoran Pemerintah Kabupaten Pesawaran Jl. Raya
+            Kedondong, Way Layap Kec. Gedong Tataan Kabupaten Pesawaran,
+            Provinsi Lampung Indonesia Kode Pos 35371
+          </p>
+
+          <h4>Bidang</h4>
+          <ul>
+            <li>Sekretariat</li>
+            <li>SDKOMINFO</li>
+            <li>Statistik</li>
+            <li>ITP</li>
+            <li>PPIP</li>
+          </ul>
+        </div>
+        <div class="footer-right">
+          <h4>Layanan</h4>
+          <ul>
+            <li>Layanan Kominfo</li>
+            <li>Layanan Domain Desa</li>
+          </ul>
+
+          <h4>IKUTI KAMI</h4>
+          <div class="social-icons">
+            <a href="https://www.instagram.com" target="_blank">
+              <img src="../assets/Instagram_icon.png.webp" alt="Instagram" />
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+              <img src="../assets/fb.png" alt="Facebook" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="bantuan.js"></script>
+  </body>
+</html>
